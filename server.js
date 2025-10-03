@@ -63,7 +63,7 @@ app.post('/api/contact', async (req, res) => {
 });
 
 // Test endpoint
-app.get('/', (req, res) => {
+app.get('/test', (req, res) => {
   res.json({ message: 'Contact API is running!' });
 });
 
